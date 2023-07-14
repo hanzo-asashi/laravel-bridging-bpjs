@@ -1,16 +1,16 @@
 {
-    "name": "cerbero/:package_name",
+    "name": "hanzo-asashi/laravel-bridging-bpjs",
     "type": "library",
-    "description": ":package_description",
+    "description": "Laravel BPJS Bridging Service",
     "keywords": [
         "laravel"
     ],
-    "homepage": "https://github.com/cerbero90/:package_name",
+    "homepage": "https://github.com/hanzo-asashi/laravel-bridging-bpjs",
     "license": "MIT",
     "authors": [{
-        "name": "Andrea Marco Sartori",
-        "email": "andrea.marco.sartori@gmail.com",
-        "homepage": "https://github.com/cerbero90",
+        "name": "Hansen Makangiras",
+        "email": "hansenmakangiras@gmail.com",
+        "homepage": "https://github.com/hanzo-asashi",
         "role": "Developer"
     }],
     "require": {
@@ -27,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Cerbero\\:package_ns\\": "src"
+            "HanzoAsashi\\LaravelBridgingBpjs\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Cerbero\\:package_ns\\": "tests"
+            "HanzoAsashi\\LaravelBridgingBpjs\\": "tests"
         }
     },
     "scripts": {
@@ -46,7 +46,7 @@
         },
         "laravel": {
             "providers": [
-                "Cerbero\\:package_ns\\Providers\\:package_nsServiceProvider"
+                "HanzoAsashi\\LaravelBridgingBpjs\\Providers\\LaravelBridgingBpjsServiceProvider"
             ]
         }
     },

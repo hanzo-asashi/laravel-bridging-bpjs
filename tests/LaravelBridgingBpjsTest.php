@@ -1,8 +1,8 @@
 <?php
 
-namespace Cerbero\LaravelBridgingBpjs;
+namespace HanzoAsashi\LaravelBridgingBpjs;
 
-use Cerbero\LaravelBridgingBpjs\Providers\LaravelBridgingBpjsServiceProvider;
+use HanzoAsashi\LaravelBridgingBpjs\Providers\LaravelBridgingBpjsServiceProvider;
 use Orchestra\Testbench\TestCase;
 
 /**
@@ -17,7 +17,7 @@ class LaravelBridgingBpjsTest extends TestCase
      * @param \Illuminate\Foundation\Application $app
      * @return array
      */
-    protected function getPackageProviders($app)
+    protected function getPackageProviders($app): array
     {
         return [
             LaravelBridgingBpjsServiceProvider::class,

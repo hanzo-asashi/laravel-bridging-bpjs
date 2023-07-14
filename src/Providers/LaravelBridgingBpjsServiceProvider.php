@@ -1,6 +1,6 @@
 <?php
 
-namespace Cerbero\LaravelBridgingBpjs\Providers;
+namespace HanzoAsashi\LaravelBridgingBpjs\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

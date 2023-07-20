@@ -12,6 +12,7 @@
 [![Software License][ico-license]](LICENSE.md)
 [![PER][ico-per]][link-per]
 [![Total Downloads][ico-downloads]][link-downloads]
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhanzo-asashi%2Flaravel-bridging-bpjs.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhanzo-asashi%2Flaravel-bridging-bpjs?ref=badge_shield)
 
 Laravel BPJS Bridging Service
 
@@ -88,3 +89,6 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-downloads]: https://packagist.org/packages/hanzo-asashi/laravel-bridging-bpjs
 [link-phpstan]: https://phpstan.org/
 [link-contributors]: ../../contributors
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fhanzo-asashi%2Flaravel-bridging-bpjs.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fhanzo-asashi%2Flaravel-bridging-bpjs?ref=badge_large)
